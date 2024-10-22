@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#buttons {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	background-color: #a164df;
+}
+
+.btn, .stop {
+	background-color: #663399;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.stop {
+	position: fixed;
+	background-color: black;
+	top: 60vh;
+	left: 44vw;
+}
+
