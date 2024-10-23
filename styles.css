@@ -17,7 +17,7 @@
 }
 
 .stop {
-	position: fixed;
+	position: absolute;
 	background-color: black;
 	top: 60vh;
 	left: 44vw;
